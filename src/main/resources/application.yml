@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/currency_exchange
+    username: currency_user
+    password: currency_password
+
+  jpa:
+    hibernate:
+      ddl-auto: validate

@@ -1,9 +1,9 @@
-package ru.mentee.power.restcontroller;
+package ru.mentee.power.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CurrencyRestController {
+public class CurrencyController {
 
 
 

@@ -7,3 +7,4 @@ import ru.mentee.power.entity.Currency;
 
 public interface CurrencyRepository extends JpaRepository<Currency, UUID> {
 }
+
