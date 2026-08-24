@@ -1,6 +1,8 @@
 package ru.mentee.power.dto;
 
-import java.math.BigDecimal;
-
-public record CurrencyDto(BigDecimal amount) {
-}
+public record CurrencyDto(
+        Long id,
+        String name,
+        String code,
+        String sign
+) {}

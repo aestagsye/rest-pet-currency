@@ -31,6 +31,13 @@
 
     <dependencies>
 
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- REST API / Spring MVC / Embedded Tomcat / Jackson -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,6 +70,11 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Liquibase -->
+        <dependency>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-core</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

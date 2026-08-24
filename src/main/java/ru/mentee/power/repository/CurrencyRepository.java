@@ -1,10 +1,8 @@
 package ru.mentee.power.repository;
 
-import java.util.UUID;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import ru.mentee.power.entity.Currency;
 
-public interface CurrencyRepository extends JpaRepository<Currency, UUID> {
+public interface CurrencyRepository extends JpaRepository<Currency, Long> {
 }
 
