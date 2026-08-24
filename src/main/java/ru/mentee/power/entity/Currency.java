@@ -20,7 +20,7 @@ public class Currency {
   @Column(name = "full_name", nullable = false)
   private String fullName;
 
-  @Column(nullable = false)
+  @Column(nullable = false, length = 10)
   private String sign;
 
   public Currency(String code, String fullName, String sign) {
