@@ -2,10 +2,9 @@ package ru.mentee.power.dto;
 
 import java.math.BigDecimal;
 
-public record ExchangeResponseDto(
+public record ExchangeRateResponse(
+        Long id,
         CurrencyResponse baseCurrency,
         CurrencyResponse targetCurrency,
-        BigDecimal rate,
-        BigDecimal amount,
-        BigDecimal convertedAmount
+        BigDecimal rate
 ) {}
