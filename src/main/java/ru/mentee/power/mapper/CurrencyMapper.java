@@ -8,6 +8,7 @@ import ru.mentee.power.entity.Currency;
 
 @Mapper(componentModel = "spring")
 public interface CurrencyMapper {
+  @Mapping(target = "id", ignore = true)
   @Mapping(target = "fullName", source = "name")
   Currency toCurrency(CurrencyRequest request);
 
